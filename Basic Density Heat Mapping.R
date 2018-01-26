@@ -12,12 +12,12 @@ library(spatstat)
 library(maptools)
 library(rgdal)
 library(dplyr)
+library(RCurl)
 
 
-setwd("~/Git/Heat Mapping Basic")
 
 # Import the fatal crash data from the .csv file
-  crashes <- read.csv("./Fatal_Crash_Data_Spokane_WA.csv", header = T, stringsAsFactors = F)
+  crashes <-read.csv( text = getURL("https://raw.githubusercontent.com/LMcDiffett/DensityHeatMap/master/Fatal_Crash_Data_Spokane_WA.csv", ssl.verifypeer = FALSE), header = T, stringsAsFactors = F)
   
   # clean the data in case there are missing or abnormal GPS coordinates
   # we can ensure that no impossible coordinates are present by limiting Lat / Long to -180 <= x <= 180
