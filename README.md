@@ -8,5 +8,5 @@ Much of the basis behind this code came from http://www.exegetic.biz/blog/2013/1
 To extend the functionality of this code, a more advanced density scoring analysis will be added in which the density score at a pariticular point can be extracted.  This readme will be updated with a reference to the link when available.
 
 
-Example : 
-![alt text](https://raw.githubusercontent.com/LMcDiffett/DensityHeatMap/master/Density_Heat_Map.png)
+
+![Example Output](https://raw.githubusercontent.com/LMcDiffett/DensityHeatMap/master/Density_Heat_Map.png)
