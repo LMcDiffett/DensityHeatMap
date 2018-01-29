@@ -9,4 +9,4 @@ To extend the functionality of this code, a more advanced density scoring analys
 
 
 Example : 
-![alt text](https://raw.githubusercontent.com/LMcDiffett/DensityHeatMap/master/Density Heat Map.png)
+![alt text](https://raw.githubusercontent.com/LMcDiffett/DensityHeatMap/master/Density_Heat_Map.png)
